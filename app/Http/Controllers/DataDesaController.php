@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Desa;
-use App\Penduduk;
+use App\Models\Desa;
+use App\Models\Penduduk;
 
 use Illuminate\Http\Request;
 

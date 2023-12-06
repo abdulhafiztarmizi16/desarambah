@@ -2,12 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use App\AnggaranRealisasi;
-use App\Desa;
-use App\DetailJenisAnggaran;
-use App\JenisAnggaran;
-use App\KelompokJenisAnggaran;
+use App\Models\AnggaranRealisasi;
+use App\Models\Desa;
+use App\Models\DetailJenisAnggaran;
+use App\Models\JenisAnggaran;
+use App\Models\KelompokJenisAnggaran;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 class AnggaranRealisasiController extends Controller
 {
@@ -222,7 +223,7 @@ class AnggaranRealisasiController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\DetailJenisAnggaran  $detail_jenis_anggaran
+     * @param  \App\Models\DetailJenisAnggaran  $detail_jenis_anggaran
      * @return \Illuminate\Http\Response
      */
     public function show($id)
@@ -233,7 +234,7 @@ class AnggaranRealisasiController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\DetailJenisAnggaran  $detail_jenis_anggaran
+     * @param  \App\Models\DetailJenisAnggaran  $detail_jenis_anggaran
      * @return \Illuminate\Http\Response
      */
     public function kelompokJenisAnggaran(KelompokJenisAnggaran $kelompokJenisAnggaran)
@@ -244,7 +245,7 @@ class AnggaranRealisasiController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\AnggaranRealisasi  $anggaran_realisasi
+     * @param  \App\Models\AnggaranRealisasi  $anggaran_realisasi
      * @return \Illuminate\Http\Response
      */
     public function edit(AnggaranRealisasi $anggaran_realisasi)
@@ -257,7 +258,7 @@ class AnggaranRealisasiController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\AnggaranRealisasi  $anggaran_realisasi
+     * @param  \App\Models\AnggaranRealisasi  $anggaran_realisasi
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, AnggaranRealisasi $anggaran_realisasi)
@@ -280,7 +281,7 @@ class AnggaranRealisasiController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\AnggaranRealisasi  $anggaran_realisasi
+     * @param  \App\Models\AnggaranRealisasi  $anggaran_realisasi
      * @return \Illuminate\Http\Response
      */
     public function destroy(AnggaranRealisasi $anggaran_realisasi)

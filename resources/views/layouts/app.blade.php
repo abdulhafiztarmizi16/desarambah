@@ -1,5 +1,5 @@
 @php
-    $desa = App\Desa::find(1);
+    $desa = App\Models\Desa::find(1);
 @endphp
 <!--
 

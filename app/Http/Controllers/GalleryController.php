@@ -2,9 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Desa;
-use App\Gallery;
-use App\Video;
+use App\Models\Desa;
+use App\Models\Gallery;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 
@@ -19,7 +18,6 @@ class GalleryController extends Controller
     {
         $desa = Desa::find(1);
         $gallery = Gallery::where('slider', null)->get();
-        $videos = Video::all();
         $galleries = array();
 
         foreach ($gallery as $key => $value) {
@@ -29,17 +27,6 @@ class GalleryController extends Controller
                 'caption'   => $value->caption,
                 'jenis'     => 1,
                 'created_at'=> strtotime($value->created_at),
-            ];
-            array_push($galleries, $gambar);
-        }
-
-        foreach ($videos as $key => $value) {
-            $gambar = [
-                'gambar'    => $value->gambar,
-                'id'        => $value->video_id,
-                'caption'   => $value->caption,
-                'jenis'     => 2,
-                'created_at'=> strtotime($value->published_at),
             ];
             array_push($galleries, $gambar);
         }
@@ -76,7 +63,6 @@ class GalleryController extends Controller
     {
         $desa = Desa::find(1);
         $gallery = Gallery::where('slider', null)->get();
-        $videos = Video::all();
         $galleries = array();
     
         foreach ($gallery as $key => $value) {
@@ -86,17 +72,6 @@ class GalleryController extends Controller
                 'caption'   => $value->caption,
                 'jenis'     => 1,
                 'created_at'=> strtotime($value->created_at),
-            ];
-            array_push($galleries, $gambar);
-        }
-    
-        foreach ($videos as $key => $value) {
-            $gambar = [
-                'gambar'    => $value->gambar,
-                'id'        => $value->video_id,
-                'caption'   => $value->caption,
-                'jenis'     => 2,
-                'created_at'=> strtotime($value->published_at),
             ];
             array_push($galleries, $gambar);
         }

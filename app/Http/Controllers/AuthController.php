@@ -6,7 +6,7 @@ use App\Rules\LoginRule;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
-use App\Desa;
+use App\Models\Desa;
 
 class AuthController extends Controller
 {

@@ -1,6 +1,6 @@
 <?php
 
-use App\Agama;
+use App\Models\Agama;
 use Illuminate\Database\Seeder;
 
 class AgamaSeeder extends Seeder

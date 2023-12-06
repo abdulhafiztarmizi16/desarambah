@@ -1,6 +1,6 @@
 <?php
 
-use App\KelompokJenisAnggaran;
+use App\Models\KelompokJenisAnggaran;
 use Illuminate\Database\Seeder;
 
 class KelompokJenisAnggaranSeeder extends Seeder

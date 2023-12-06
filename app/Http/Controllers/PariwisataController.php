@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Desa;
-use App\Pariwisata;
+use App\Models\Desa;
+use App\Models\Pariwisata;
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;

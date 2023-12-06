@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Desa;
-use App\User;
-use App\Berita;
+use App\Models\Desa;
+use App\Models\User;
+use App\Models\Berita;
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
@@ -92,7 +92,7 @@ class BeritaController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Berita  $berita
+     * @param  \App\Models\Berita  $berita
      * @return \Illuminate\Http\Response
      */
     // control tampilan isi dari konten berita

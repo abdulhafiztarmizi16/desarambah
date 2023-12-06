@@ -1,6 +1,6 @@
 <?php
 
-use App\Visimisi;
+use App\Models\Visimisi;
 use Illuminate\Database\Seeder;
 
 class VisimisiSeeder extends Seeder

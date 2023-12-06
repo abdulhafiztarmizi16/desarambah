@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Visimisi;
+use App\Models\Visimisi;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 

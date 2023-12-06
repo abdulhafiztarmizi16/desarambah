@@ -2,15 +2,15 @@
 
 namespace App\Http\Controllers;
 
-use App\Agama;
-use App\Darah;
-use App\Dusun;
+use App\Models\Agama;
+use App\Models\Darah;
+use App\Models\Dusun;
 use App\Http\Requests\PendudukRequest;
-use App\Pekerjaan;
-use App\Pendidikan;
-use App\Penduduk;
-use App\StatusHubunganDalamKeluarga;
-use App\StatusPerkawinan;
+use App\Models\Pekerjaan;
+use App\Models\Pendidikan;
+use App\Models\Penduduk;
+use App\Models\StatusHubunganDalamKeluarga;
+use App\Models\StatusPerkawinan;
 use Illuminate\Http\Request;
 
 class PendudukController extends Controller
@@ -93,7 +93,7 @@ class PendudukController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Penduduk  $penduduk
+     * @param  \App\Model\Penduduk  $penduduk
      * @return \Illuminate\Http\Response
      */
     public function show(Penduduk $penduduk)
@@ -104,7 +104,7 @@ class PendudukController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Penduduk  $penduduk
+     * @param  \App\Models\Penduduk  $penduduk
      * @return \Illuminate\Http\Response
      */
     public function edit(Penduduk $penduduk)
@@ -126,7 +126,7 @@ class PendudukController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Penduduk  $penduduk
+     * @param  \App\Models\Penduduk  $penduduk
      * @return \Illuminate\Http\Response
      */
     public function update(PendudukRequest $request, Penduduk $penduduk)
@@ -139,7 +139,7 @@ class PendudukController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Penduduk  $penduduk
+     * @param  \App\Models\Penduduk  $penduduk
      * @return \Illuminate\Http\Response
      */
     public function destroy(Penduduk $penduduk)

@@ -100,14 +100,6 @@
                     <span class="nav-link-inner--text">Kelola Visimisi</span>
                 </a>
             </li>
-            {{-- KELOLA SURAT --}}
-            {{-- <li class="nav-item">
-                <a class="nav-link @if (Request::segment(1) == 'surat' || Request::segment(1) == 'tambah-surat') active @endif"
-                    href="{{ route('surat.index') }}">
-                    <i class="ni ni-single-copy-04 text-primary"></i>
-                    <span class="nav-link-inner--text">Kelola Surat</span>
-                </a>
-            </li> --}}
             <li class="nav-item">
                 <a class="nav-link @if (Request::segment(1) == 'kelola-berita' || Request::segment(1) == 'tambah-berita' || Request::segment(1) == 'berita') active @endif"
                     href="{{ route('berita.index') }}">

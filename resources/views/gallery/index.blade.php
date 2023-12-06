@@ -26,7 +26,6 @@
                                 <p class="mb-0 text-sm">Kelola Gallery {{ config('app.name') }}</p>
                             </div>
                             <div class="mb-3">
-                                {{-- <a href="#video-modal" data-toggle="modal" class="btn btn-primary"><i class="fas fa-video mr-2"></i> Pengaturan Video</a> --}}
                                 <a href="#tambah-gambar" data-toggle="modal" class="btn btn-primary"><i class="fas fa-image mr-2"></i> Tambah Gambar</a>
                             </div>
                         </div>
@@ -70,42 +69,6 @@
 <div class="row justify-content-center pt-3">
     <div class="col-md-6 d-flex justify-content-center align-items-center">
         {{ $galleriesPaginated->links() }}
-    </div>
-</div>
-
-<div class="modal fade" id="video-modal" tabindex="-1" role="dialog" aria-labelledby="video-modal" aria-hidden="true">
-    <div class="row fixed-top m-3">
-        <div class="col-lg-6"></div>
-        <div class="col-lg-6">
-            <div class="notifikasi"></div>
-        </div>
-    </div>
-    <div class="modal-dialog modal-dialog-centered modal-" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h6 class="modal-title" id="modal-title-delete">Pengaturan Video</h6>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">×</span>
-                </button>
-            </div>
-
-            <div class="modal-body pt-0">
-                <form class="d-inline" action="{{ route("video.update") }}" method="POST" >
-                    @csrf @method('patch')
-                    <div class="form-group">
-                        <label class="form-control-label">Channel ID Youtube</label>
-                        <input type="text" name="channel_id" id="channel_id" class="form-control" value="{{ $desa->channel_id }}">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Simpan</button>
-                </form>
-                <form class="d-inline" action="{{ route("video.store") }}" method="POST">
-                    @csrf
-                    <button type="submit" class="btn btn-success"><i class="fas fa-sync"></i> Sync</button>
-                </form>
-                <button type="button" class="btn btn-white" data-dismiss="modal">Batal</button>
-            </div>
-
-        </div>
     </div>
 </div>
 

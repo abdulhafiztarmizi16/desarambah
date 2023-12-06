@@ -1,6 +1,6 @@
 <?php
 
-use App\Aparat;
+use App\Models\Aparat;
 use Illuminate\Database\Seeder;
 
 class AparatSeeder extends Seeder

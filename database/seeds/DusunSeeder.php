@@ -1,6 +1,6 @@
 <?php
 
-use App\Dusun;
+use App\Models\Dusun;
 use Illuminate\Database\Seeder;
 
 class DusunSeeder extends Seeder

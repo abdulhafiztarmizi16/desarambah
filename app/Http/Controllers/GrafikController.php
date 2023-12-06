@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use App\Agama;
-use App\Darah;
-use App\Desa;
-use App\Pekerjaan;
-use App\Pendidikan;
-use App\Penduduk;
-use App\StatusPerkawinan;
+use App\Models\Agama;
+use App\Models\Darah;
+use App\Models\Desa;
+use App\Models\Pekerjaan;
+use App\Models\Pendidikan;
+use App\Models\Penduduk;
+use App\Models\StatusPerkawinan;
 use Carbon\Carbon;
 
 class GrafikController extends Controller

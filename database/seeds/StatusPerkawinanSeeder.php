@@ -1,6 +1,6 @@
 <?php
 
-use App\StatusPerkawinan;
+use App\Models\StatusPerkawinan;
 use Illuminate\Database\Seeder;
 
 class StatusPerkawinanSeeder extends Seeder

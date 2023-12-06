@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Dusun;
+use App\Models\Dusun;
 use Illuminate\Http\Request;
 
 class DusunController extends Controller

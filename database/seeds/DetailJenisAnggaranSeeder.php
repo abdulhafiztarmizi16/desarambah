@@ -1,6 +1,6 @@
 <?php
 
-use App\DetailJenisAnggaran;
+use App\Models\DetailJenisAnggaran;
 use Illuminate\Database\Seeder;
 
 class DetailJenisAnggaranSeeder extends Seeder
