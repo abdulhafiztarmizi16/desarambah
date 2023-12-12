@@ -1,3 +1,10 @@
+## Website Company Profile Desa Rambah
+Pembangunan desa saat ini semakin melibatkan teknologi informasi guna memudahkan akses informasi bagi masyarakat. Hal ini sesuai dengan UU No. 25 Tahun 2009 yang menekankan pelayanan informasi yang luas dari pemerintah desa untuk masyarakat. Melalui penelitian yang menggali data dari Desa Digital Terbuka, terdapat manfaat signifikan dari implementasi sistem informasi di berbagai desa, termasuk akses yang lebih baik pada informasi desa, transparansi pemerintahan, dan efisiensi kantor desa.
+
+Namun, Desa Rambah di Kecamatan Rambah Hilir, Kabupaten Rokan Hulu, masih menghadapi kendala dalam menyebarkan informasi secara luas. Dalam wawancara dengan staf desa, terungkap bahwa informasi disebarkan secara manual, membatasi jangkauan dan waktu, serta tidak tepat sasaran. Oleh karena itu, untuk mengatasi permasalahan tersebut, pembuatan website company profile menjadi pilihan solusi yang efektif.
+
+Penelitian ini mengusulkan perancangan desain website company profile berbasis teknologi informasi. Dengan pendekatan design thinking, penelitian ini bertujuan memahami pengguna, mengidentifikasi masalah, dan menciptakan solusi inovatif melalui prototype yang diimplementasikan menjadi sistem website yang sesuai dengan kebutuhan pengguna.
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
@@ -6,14 +13,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
-
-## Website Company Profile Desa Rambah
-Pembangunan desa saat ini semakin melibatkan teknologi informasi guna memudahkan akses informasi bagi masyarakat. Hal ini sesuai dengan UU No. 25 Tahun 2009 yang menekankan pelayanan informasi yang luas dari pemerintah desa untuk masyarakat. Melalui penelitian yang menggali data dari Desa Digital Terbuka, terdapat manfaat signifikan dari implementasi sistem informasi di berbagai desa, termasuk akses yang lebih baik pada informasi desa, transparansi pemerintahan, dan efisiensi kantor desa.
-
-Namun, Desa Rambah di Kecamatan Rambah Hilir, Kabupaten Rokan Hulu, masih menghadapi kendala dalam menyebarkan informasi secara luas. Dalam wawancara dengan staf desa, terungkap bahwa informasi disebarkan secara manual, membatasi jangkauan dan waktu, serta tidak tepat sasaran. Oleh karena itu, untuk mengatasi permasalahan tersebut, pembuatan website company profile menjadi pilihan solusi yang efektif.
-
-Penelitian ini mengusulkan perancangan desain website company profile berbasis teknologi informasi. Dengan pendekatan design thinking, penelitian ini bertujuan memahami pengguna, mengidentifikasi masalah, dan menciptakan solusi inovatif melalui prototype yang diimplementasikan menjadi sistem website yang sesuai dengan kebutuhan pengguna.
-
 
 ## Cara Install Project DENGAN github desktop
 Untuk menginstal project ini anda harus memiliki Composer
