@@ -42,6 +42,9 @@
     <link rel="stylesheet" href="/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
 
+    {{-- animation AOS CDN --}}
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     @section('styles')
         <link href="{{ asset('/css/style.css') }}" rel="stylesheet">
         <style>
@@ -379,6 +382,12 @@
     <!--   Core   -->
     <script src="{{ url('/js/plugins/jquery/dist/jquery.min.js') }}"></script>
     <script src="{{ url('/js/plugins/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
+
+    {{-- animation AOS CDN --}}
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
     <!-- Template Main JS File -->
     <script src="/js/main.js"></script>

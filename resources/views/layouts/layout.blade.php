@@ -63,6 +63,9 @@
     <link href="{{ asset('/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
     <link href="{{ asset('/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
+    {{-- animation AOS CDN --}}
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     @yield('styles')
 </head>
 
@@ -124,6 +127,12 @@
     <script src="{{ url('/js/plugins/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
 
     <!--   Optional JS   -->
+
+    {{-- animation AOS CDN --}}
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
     <!--   Argon JS   -->
     <script src="{{ url('/js/argon-dashboard.min.js?v=1.1.2') }}"></script>

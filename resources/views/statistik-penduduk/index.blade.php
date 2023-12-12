@@ -1,8 +1,8 @@
 @extends('layouts.layout')
-@section('title', 'Website Resmi Pemerintah Desa '. App\Desa::find(1)->nama_desa . ' - Statistik Penduduk')
+@section('title', 'Website Resmi Pemerintah Desa '. App\Models\Desa::find(1)->nama_desa . ' - Statistik Penduduk')
 
 @section('styles')
-<meta name="description" content="Statistik Penduduk Desa {{ App\Desa::find(1)->nama_desa }}, Kecamatan {{ App\Desa::find(1)->nama_kecamatan }}, Kabupaten {{ App\Desa::find(1)->nama_kabupaten }}.">
+<meta name="description" content="Statistik Penduduk Desa {{ App\Models\Desa::find(1)->nama_desa }}, Kecamatan {{ App\Models\Desa::find(1)->nama_kecamatan }}, Kabupaten {{ App\Models\Desa::find(1)->nama_kabupaten }}.">
 <script src="https://code.highcharts.com/stock/highstock.js"></script>
 <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
 <script src="https://code.highcharts.com/stock/modules/accessibility.js"></script>
