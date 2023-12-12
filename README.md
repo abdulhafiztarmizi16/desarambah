@@ -97,6 +97,15 @@ php artisan storage:link
 php artisan serve
 ```
 - Lalu ctrl+klik pada http://127.0.0.0:8000
+- untuk login admin silakan explore dan konfigurasi by ur self
+
+## Tampilan
+- Tampilan untuk halaman utama
+![Screenshot_HomePage](ss_homepage.png)
+- Tampilan untuk halaman Login
+![Screenshot_Login](ss_login.png)
+- Tampilan untuk halaman Dashbaord Admin
+![Screenshot_Dashboard](ss_dashboard.png)
 
 
 ## About Laravel
